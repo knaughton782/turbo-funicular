@@ -10,3 +10,4 @@ let isValidPassword = function(password) {
     }
 
 }
+console.log(isValidPassword('123456;lsjgil'));
