@@ -46,3 +46,12 @@ console.log(addInc);
 console.log(acctSum);
 console.log(reset);
 console.log(myAcct);
+
+
+
+let resetAcct = function(acct) {
+    acct.income = 0;
+    acct.expenses = 0;
+  
+}
+resetAcct(myAcct)
